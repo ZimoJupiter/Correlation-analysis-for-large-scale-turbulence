@@ -374,7 +374,7 @@ def AC(EData_detrended, AData_detrended, GData_detrended, CData_detrended):
     plt.legend(loc='upper left',facecolor='white', edgecolor='white', ncol=2, handletextpad=0.2, borderpad=0, columnspacing=0.5)
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig('Figures/Integral time scale.png')
+    plt.savefig('Figures/Integral_time_scale.png')
 
 def CC(EData_detrended, AData_detrended, GData_detrended, CData_detrended):
     Slice_A = AData_detrended[int(np.where(AData=='01/01/2019 00:00')[0]):int(np.where(AData=='01/01/2022 00:00')[0])]
@@ -520,7 +520,7 @@ def CC(EData_detrended, AData_detrended, GData_detrended, CData_detrended):
     plt.legend(loc='upper left',facecolor='white', edgecolor='white', ncol=1, handletextpad=0.2, borderpad=0, columnspacing=0.5)
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig('Figures/Integral time scale_CC.png')
+    plt.savefig('Figures/Integral_time_scale_CC.png')
 
 if __name__ == '__main__':
     EData, AData, GData, CData = ReadData()
