@@ -1,8 +1,8 @@
 """
-@ Correlation analysis for large scale turbulence
+@ Correlation analysis for large-scale turbulence
 @ author ZimoJupiter
 @ w.zimo@outlook.com
-@ date 18 Dec 2024
+@ date 10 Mar 2025
 @ license MIT License
 """
 import numpy as np
@@ -539,4 +539,5 @@ if __name__ == '__main__':
     CC(EData_detrended, AData_detrended, GData_detrended, CData_detrended)
 
     breakpoint
+
 
